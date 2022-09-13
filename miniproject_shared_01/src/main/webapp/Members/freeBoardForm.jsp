@@ -37,7 +37,6 @@ else {%>
 <jsp:include page="./header.jsp"></jsp:include>
 <%}%>
 <div id="content">
-<jsp:include page="./aside.jsp"></jsp:include>
 <div id="freeBoardForm">
 	<a href="./boardWrite.jsp?boardTitle=<%=boardTitle%>" id="freeBoardWrite" style="display: none;"></a>
 	<div class="row">
@@ -93,6 +92,7 @@ else {%>
 	<%if(session.getAttribute("userId") != null){ %>
 	<input type="button" value="글쓰기" style="margin-top: -30px; margin-left: 1350px" onclick="document.getElementById('freeBoardWrite').click();" />
 	<%}%> 
+</div>
 </div>
 </div>
 <jsp:include page="./footer.jsp"></jsp:include>
