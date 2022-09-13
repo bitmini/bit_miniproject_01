@@ -120,7 +120,7 @@ else {%>
 <%}%>
 <div id="content">
 <div id="freeBoardView">
-		<p style="float: left;">닉네임 : <%=writer %></p> <p style="text-align: center;">작성일 : <%=regDate %></p>  <p style="float: right;"> 조회 : <%=views %> &nbsp;&nbsp; 추천 : <%=recommends %></p>
+		<p style="float: left;">닉네임 : <%=writer %></p> <p style="text-align: center;">작성일 : <%=regDate %></p>  <p style="float: right; margin-top:-40px"> 조회 : <%=views %> &nbsp; 추천 : <%=recommends %></p>
 	<hr>
 	<div>
 	<h1><%=title %></h1>
