@@ -16,7 +16,7 @@ background-repeat:
 
 #content {
 width: 1630px;
-height: 2000px;
+height: 1800px;
 }
   
 .btn {
