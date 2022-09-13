@@ -120,6 +120,7 @@ else {%>
 <%}%>
 <div id="content">
 <div id="freeBoardView">
+<<<<<<< HEAD
     <div class="container">
         <div class="row">
             <table class="table table-striped" style="text-align:center; border:1px solid #dddddd">
@@ -152,6 +153,20 @@ else {%>
 </div>
 
 <br>
+=======
+		<p style="float: left;">닉네임 : <%=writer %></p> <p style="text-align: center;">작성일 : <%=regDate %></p>  <p style="float: right; margin-top:-40px"> 조회 : <%=views %> &nbsp; 추천 : <%=recommends %></p>
+	<hr>
+	<div>
+	<h1><%=title %></h1>
+	</div>
+	<hr>
+<div>
+	<!-- 파일 다운로드 servlet 만들어서 다운로드 받게 해야함 -->
+	<!-- 파일 명을 넘겨주고.. realpath처리.. -->
+		<img alt="" src="<%=path%>${imageFileName}" onerror="this.style.display='none'"> <br>
+		<p><%=content%></p>
+</div> <br>
+>>>>>>> branch 'master' of https://github.com/bitmini/bit_miniproject_01.git
 <c:set var ="number" value="<%=number %>"></c:set>
 <form action="./recommendsProcess.do?number=${number}" method="post">
 	<!-- 추천을 누르면 현재 게시글 정보의 추천이 process로 가서 1 올라서 다시 일로와야해 -->
